@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.root {
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    /* background-color: pink; */
+    width: 550px;
+    height: 150px;
+    float: left;
+}
+
+.tit {
+    float: left;
+    position: absolute;
+    top: 8px;
+    left: 100px;
+    font-size: 50px;
+    font-family: 'STXingkai';
+}
+
+.my_logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+.my_tit {
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    float: left;
+    font-size: 18px;
+}
+
+.my_nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    top: 68px;
+    right: 10px;
+}
+
+.my_nav ul li a {
+    display: block;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.my_nav ul li a:hover {
+    border-bottom: 4px solid #00a4ff;
+}
+
+.my_z {
+    float: left;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    /* background-color: #00a4ff; */
+}
+
+.my_z h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.my_z a {
+    width: 100px;
+    height: 40px;
+    /* background: #00a4ff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 7vh;
+    left: 8vw;
+    color: white;
+    border: 1px solid white;
+    /* text-align: center; */
+}

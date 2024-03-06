@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>木子的web前端大作业</title>
+    <link rel="stylesheet" href="./大连特产.css">
+</head>
+
+<body>
+    <!-- 头 -->
+    <div class="root">
+        <div class="logo">
+            <img src="../首页/images/logo.jpg" alt="" class="my_logo-img">
+            <h1 class="tit">大连东软信息学院</h1>
+            <span class="my_tit">木子的web前端大作业</span>
+        </div>
+        <div class="my_nav">
+            <ul>
+                <li><a href="../首页/首页.html">首页</a></li>
+                <li><a href="../特色旅游/特色旅游.html">特色旅游</a></li>
+                <li><a href="../大连特产/大连特产.html">大连特产</a></li>
+                <li><a href="../大连故事/大连故事.html">大连故事</a></li>
+                <li><a href="../登录注册页/登录页/登录页.html" target="_blank">管理员入口</a></li>
+            </ul>
+        </div>
+        <div class="my_hr">
+            <hr>
+        </div>
+    </div>
+    <div class="subject2">
+        <h1>大连特产 DALIAN SPECIALTY</h1>
+        <div class="main">
+            <div class="list1" onclick="location.href='../大连特产/大连特产.html';">
+                <img src="../大连特产/images/紫海胆.jpg" alt="">
+            </div>
+            <div class="list1" onclick="location.href='../大连特产/大连特产.html';">
+                <img src="../大连特产/images/虾片.jpg" alt="">
+            </div>
+            <div class="list1" onclick="location.href='../大连特产/大连特产.html';">
+                <img src="../大连特产/images/贝雕.jpg" alt="">
+            </div>
+            <div class="list1" onclick="location.href='../大连特产/大连特产.html';">
+                <img src="../大连特产/images/海参.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 主体 -->
+    <div class="box">
+        <img src="../大连特产/images/紫海胆.jpg" alt="">
+        <h2>大连紫海胆</h2>
+        <p1>
+            大连紫海胆是大连的特色海鲜，它的管足
+
+            的色泽是紫褐色的内部的生殖腺排列似五角星
+
+            形状，里面颜色橙黄，颗粒分明，十分的诱
+
+            人。大连紫海胆的营养价值极高，一度被誉为
+
+            是海洋中的珍品，拿它去赠送给亲朋好友一定
+
+            会让对方十分的惊喜。
+        </p1>
+    </div>
+    <div class="box">
+        <img src="../大连特产/images/虾片.jpg" alt="">
+        <h2>大连虾片</h2>
+        <p1>
+            大连虾片是大连的传统特色美食，其距今已有50多年的历史。它是由当地野生的蠓虾作为调味料，加上独特的自然加工条件，使得这款大连虾片的品质远远高于其他地区所制的虾片。
+
+        </p1>
+
+    </div>
+    </div>
+    <div class="box">
+        <img src="../大连特产/images/贝雕.jpg" alt="">
+        <h2>大连贝雕工艺品</h2>
+        <p1>
+            大连依山傍海，气候宜人，自然少不了出色的贝雕作品。你可以买到用几个普普通通的扇贝，海螺做成的精美漂亮的工艺品，回家把它放到桌面上当成装饰物或者馈赠您的亲朋好友。你也可以买到用珍奇名贵的稀有贝壳精心制作的贝雕作为家中的收藏品，这完全根据你的喜好了。大连的贝雕千姿百态，琳琅满目。
+        </p1>
+    </div>
+    <div class="box">
+        <img src="../大连特产/images/海参.jpg" alt="">
+        <h2>大连海参</h2>
+        <p1>
+            大连地区有着黄河流域和渤海流域两大水系，加上大连当地的气候温和，自然生态环境也很优越，因此很适合海参等海产品的生长发育。大连海参肉厚饱满、口感上佳，营养价值也十分的丰富，因此深受养生人士的喜爱，拿大连海参赠送佳友也是一件很贴心很有面子的事情。
+        </p1>
+    </div>
+    <!-- 回到顶部 -->
+    <div class="backTop" id="backTop">
+        Top
+    </div>
+    <!-- footer  -->
+    <div class="footer">
+        <div class="left">
+            <p1>2023木子 . All rights reserved</p1>
+            <p2>邮箱: 826658612@qq.com</p2>
+        </div>
+        <div class="right">
+            <ul>
+                <li>素材来源于网络</li>
+                <li class="li-1">木子具有最终解释权</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        const backTop = document.querySelector('#backTop')
+        window.addEventListener('scroll', function () {
+            const n = document.documentElement.scrollTop
+            backTop.style.opacity = n >= 300 ? 1 : 0
+        })
+        backTop.addEventListener('click', function () {
+            document.documentElement.scrollTop = 0
+
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+html {
+
+    scroll-padding-top: 200px;
+}
+
+.root {
+    height: 122px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+    z-index: 99999;
+    background: #fff;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    /* background-color: pink; */
+    width: 550px;
+    height: 150px;
+    float: left;
+}
+
+.tit {
+    float: left;
+    position: absolute;
+    top: 8px;
+    left: 100px;
+    font-size: 50px;
+    font-family: 'STXingkai';
+}
+
+.my_logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+.my_tit {
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    float: left;
+    font-size: 18px;
+}
+
+.my_nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    top: 68px;
+    right: 10px;
+}
+
+.my_nav ul li a {
+    display: block;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.my_nav ul li a:hover {
+    border-bottom: 4px solid #00a4ff;
+}
+
+.line {
+    border-top: 3px solid #00a4ff;
+    text-align: center;
+    position: relative;
+    top: 25vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.my_hr {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: 122px;
+    z-index: 1;
+}
+
+.text {
+    position: relative;
+    top: -40px;
+    background-color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    color: #00a4ff;
+    margin: auto;
+    z-index: 2;
+}
+
+.subject h1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 20vh;
+    text-align: center;
+    color: purple;
+}
+
+.list {
+    width: 30%;
+    height: 400px;
+    background-color: pink;
+    float: left;
+    margin-right: 30px;
+    margin-top: 25px;
+    position: relative;
+    top: 30vh;
+    left: 4vw;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.list-one {
+    background: url(../了解更多/images/金石滩.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-two {
+    background: url(../了解更多/images/星海广场.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-three {
+    background: url(../了解更多/images/棒槌岛.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-four {
+    background: url(../了解更多/images/白玉山.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-five {
+    background: url(../了解更多/images/大黑山.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-six {
+    background: url(../了解更多/images/海之韵.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-a {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    z-index: 2;
+    line-height: 40px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -100px;
+    transition: all 0.8s;
+}
+
+.list .txt {
+    position: absolute;
+    bottom: -100px;
+    padding: 25px 30px;
+    font-style: 18px;
+    color: #fff;
+    transition: all 0.8s;
+    font-size: 50px;
+    /* font-weight: 700; */
+    z-index: 2;
+}
+
+.list-1:hover .txt {
+    transform: translateY(-260px) translateX(180px);
+}
+
+.list-1:hover .list-a {
+    transform: translateY(-200px) translateX(240px);
+}
+
+.list-2:hover .txt {
+    transform: translateY(-260px) translateX(160px);
+}
+
+.list-2:hover .list-a {
+    transform: translateY(-200px) translateX(240px);
+}
+
+.list-3:hover .txt {
+    transform: translateY(-260px) translateX(140px);
+}
+
+.list-3:hover .list-a {
+    transform: translateY(-200px) translateX(240px);
+}
+
+/* 分割标识，正文部分 */
+.box {
+    width: 93%;
+    height: 800px;
+    background-color: rgba(193, 210, 240, 0.4);
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    top: 50vh;
+    left: 4vw;
+    margin-bottom: 60px;
+}
+
+.box {
+    -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.box-one {
+    width: 85%;
+    height: 600px;
+    -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+    float: left;
+    position: relative;
+    top: 9vh;
+    left: 7vw;
+    border-radius: 8px;
+}
+
+
+.box .box-one img {
+    width: 45%;
+    height: 80%;
+    float: left;
+    position: relative;
+    top: 5vh;
+    left: 3vw;
+}
+
+.box .box-one h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: blue;
+    position: relative;
+    top: 10vh;
+    left: 6vw;
+}
+
+.box .box-one p {
+    position: relative;
+    top: 14vh;
+    left: 6vw;
+    text-indent: 2em;
+}
+
+.box .box-one ul li {
+    position: relative;
+    top: 18vh;
+    left: 6vw;
+    margin-bottom: 10px;
+}
+
+.backTop {
+    position: fixed;
+    bottom: 250px;
+    right: 0;
+    margin-right: 20px;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+    background-color: deepskyblue;
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    border-radius: 50%;
+    transition: all linear 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.7);
+    float: left;
+    position: relative;
+    top: 65vh;
+}
+
+.footer .left {
+    float: left;
+    /* background: #00a4ff; */
+    width: 40%;
+    height: 200px;
+}
+
+.footer .left p1 {
+    color: #fff;
+    position: relative;
+    top: 3vh;
+    left: 6vw;
+}
+
+.footer .left p2 {
+    color: #fff;
+    position: absolute;
+    top: 7vh;
+    left: 6vw;
+}
+
+.footer .right {
+    float: right;
+    /* background: #00a4ff; */
+    width: 40%;
+    height: 200px;
+}
+
+.footer .right ul li {
+    color: #fff;
+    font-size: 16px;
+    /* position: relative;
+    right: -25vw;
+    top: 4vh; */
+    padding: 10px;
+    position: absolute;
+    top: 2vw;
+    right: 6.5vw;
+}
+
+.footer .right ul .li-1 {
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+}

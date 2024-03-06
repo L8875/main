@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.root {
+    height: 122px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+    z-index: 99999;
+    background: #fff;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    /* background-color: pink; */
+    width: 550px;
+    height: 150px;
+    float: left;
+}
+
+.tit {
+    float: left;
+    position: absolute;
+    top: 8px;
+    left: 100px;
+    font-size: 50px;
+    font-family: 'STXingkai';
+}
+
+.my_logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+.my_tit {
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    float: left;
+    font-size: 18px;
+}
+
+.my_nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    top: 68px;
+    right: 10px;
+}
+
+.my_nav ul li a {
+    display: block;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.my_nav ul li a:hover {
+    border-bottom: 4px solid #00a4ff;
+}
+
+.line {
+    border-top: 3px solid #00a4ff;
+    text-align: center;
+    position: relative;
+    top: 25vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.my_hr {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: 122px;
+    z-index: 1;
+}
+
+.text {
+    position: relative;
+    top: -40px;
+    background-color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    color: #00a4ff;
+    margin: auto;
+    z-index: 2;
+}
+
+.contenter {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    position: relative;
+    top: 24vh;
+}
+
+.contenter h3 {
+    color: #00a4ff;
+    font-size: 30px;
+    position: relative;
+    top: 2vh;
+}
+
+.contenter .my_sp1 {
+    position: relative;
+    top: 5vh;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contenter p {
+    font-size: 20px;
+}
+
+.contenter .p1 {
+    position: relative;
+    top: 7vh;
+}
+
+.contenter .p2 {
+    position: relative;
+    top: 9vh;
+}
+
+.contenter .p3 {
+    position: relative;
+    top: 11vh;
+}
+
+.contenter .p4 {
+    position: relative;
+    top: 13vh;
+}
+
+.contenter .p5 {
+    position: relative;
+    top: 15vh;
+}
+
+.contenter .p3 .my_sp2 {
+    font-weight: 700;
+}
+
+.subject h1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 8vh;
+    text-align: center;
+    color: purple;
+}
+
+.list {
+    width: 30%;
+    height: 400px;
+    background-color: pink;
+    float: left;
+    margin-right: 30px;
+    margin-top: 25px;
+    position: relative;
+    top: 14vh;
+    left: 4vw;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.list-one {
+    background: url(../了解更多/images/金石滩.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-two {
+    background: url(../了解更多/images/星海广场.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-three {
+    background: url(../了解更多/images/棒槌岛.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-four {
+    background: url(../了解更多/images/白玉山.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-five {
+    background: url(../了解更多/images/大黑山.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-six {
+    background: url(../了解更多/images/海之韵.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.list-a {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    z-index: 2;
+    line-height: 40px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -100px;
+    transition: all 0.8s;
+}
+
+.list .txt {
+    position: absolute;
+    bottom: -100px;
+    padding: 25px 30px;
+    font-style: 18px;
+    color: #fff;
+    transition: all 0.8s;
+    font-size: 50px;
+    /* font-weight: 700; */
+    z-index: 2;
+}
+
+.list-1:hover .txt {
+    transform: translateY(-260px) translateX(120px);
+}
+
+.list-1:hover .list-a {
+    transform: translateY(-200px) translateX(240px);
+}
+
+.list-2:hover .txt {
+    transform: translateY(-260px) translateX(100px);
+}
+
+.list-2:hover .list-a {
+    transform: translateY(-200px) translateX(240px);
+}
+
+.list-3:hover .txt {
+    transform: translateY(-260px) translateX(80px);
+}
+
+.list-3:hover .list-a {
+    transform: translateY(-200px) translateX(240px);
+}
+
+.subject2 {
+    /* background-color: #00a4ff; */
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    float: left;
+    position: relative;
+    top: 34vh;
+}
+
+.subject2 h1 {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 7vh;
+    text-align: center;
+    color: purple;
+}
+
+.list1 {
+    width: 22%;
+    height: 450px;
+    background-color: pink;
+    float: left;
+    margin-right: 30px;
+    margin-top: 25px;
+    position: relative;
+    top: 0vh;
+    left: 4vw;
+    overflow: hidden;
+    border-radius: 9px;
+    z-index: 2;
+
+}
+
+.list1 {
+    /* div阴影 */
+    -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    /*效果四：上下左右移动 修改translate(x轴,y轴)*/
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+}
+
+.list1:hover {
+    transform: translate(0, -20px);
+    -webkit-transform: translate(0, -30px);
+    -moz-transform: translate(0, -10px);
+    -o-transform: translate(0, -10px);
+    -ms-transform: translate(0, -10px);
+}
+
+.subject3 {
+    /* background-color: #00a4ff; */
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    float: left;
+    position: relative;
+    top: 60vh;
+}
+
+.subject3 h1 {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 7vh;
+    text-align: center;
+    color: purple;
+}
+
+.list1 {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.list1 img {
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+}
+
+.list1 h4 {
+    font-size: 18px;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+    z-index: 2;
+}
+
+.list1 p1 {
+    position: relative;
+    top: 3vh;
+    left: 4vw;
+}
+
+.list1 .p2 {
+    position: relative;
+    top: 4vh;
+    left: 4vw;
+}
+
+.list2 {
+    width: 22%;
+    height: 300px;
+    background-color: pink;
+    float: left;
+    margin-right: 30px;
+    margin-top: 25px;
+    position: relative;
+    top: 0vh;
+    left: 4vw;
+    overflow: hidden;
+    /* border-radius: 9px; */
+    z-index: 2;
+}
+
+.list2-one {
+    background: url(../大连故事/images/老虎滩.jpg) no-repeat;
+    background-size: cover;
+}
+
+.list2-two {
+    background: url(../大连故事/images/龙王塘.jpg) no-repeat;
+    background-size: cover;
+}
+
+.list2-three {
+    background: url(../大连故事/images/甘井子.jpg) no-repeat;
+    background-size: cover;
+}
+
+.list2-four {
+    background: url(../大连故事/images/星海华表.jpg) no-repeat;
+    background-size: cover;
+}
+
+.subject3 .main p span {
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+    left: 2vw;
+}
+
+.subject3 .main p {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.subject3 .main .p-1 {
+    text-indent: 2em;
+}
+
+.list2:hover div {
+    transform: translateY(-340px);
+}
+
+.list2:hover .list-a {
+    transform: translateY(-200px) translateX(240px);
+}
+
+.list2 div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -1.5vw;
+    bottom: -400px;
+    padding: 25px 30px;
+    color: #fff;
+    transition: all 0.8s;
+    /* font-weight: 700; */
+    z-index: 2;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.7);
+    float: left;
+    position: relative;
+    top: 70vh;
+}
+
+.footer .left {
+    float: left;
+    /* background: #00a4ff; */
+    width: 40%;
+    height: 200px;
+}
+
+.footer .left p1 {
+    color: #fff;
+    position: relative;
+    top: 3vh;
+    left: 6vw;
+}
+
+.footer .left p2 {
+    color: #fff;
+    position: relative;
+    top: 7vh;
+    left: -5vw;
+}
+
+.footer .right {
+    float: right;
+    /* background: #00a4ff; */
+    width: 40%;
+    height: 200px;
+}
+
+.footer .right ul li {
+    color: #fff;
+    font-size: 16px;
+    /* position: relative;
+    right: -25vw;
+    top: 4vh; */
+    padding: 10px;
+    position: absolute;
+    top: 2vw;
+    right: 6.5vw;
+}
+
+.footer .right ul .li-1 {
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+}

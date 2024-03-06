@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.root {
+    height: 122px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+    z-index: 99999;
+    background: #fff;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    /* background-color: pink; */
+    width: 550px;
+    height: 150px;
+    float: left;
+}
+
+.tit {
+    float: left;
+    position: absolute;
+    top: 8px;
+    left: 100px;
+    font-size: 50px;
+    font-family: 'STXingkai';
+}
+
+.my_logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+.my_tit {
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    float: left;
+    font-size: 18px;
+}
+
+.my_nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    top: 68px;
+    right: 10px;
+}
+
+.my_nav ul li a {
+    display: block;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.my_nav ul li a:hover {
+    border-bottom: 4px solid #00a4ff;
+}
+
+.line {
+    border-top: 3px solid #00a4ff;
+    text-align: center;
+    position: relative;
+    top: 25vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.my_hr {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: 122px;
+    z-index: 1;
+}
+
+.text {
+    position: relative;
+    top: -40px;
+    background-color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    color: #00a4ff;
+    margin: auto;
+    z-index: 2;
+}
+
+.subject2 {
+    /* background-color: #00a4ff; */
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    float: left;
+    position: relative;
+    top: 5vh;
+}
+
+.subject2 h1 {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 7vh;
+    text-align: center;
+    color: purple;
+}
+
+.list1 {
+    width: 22%;
+    height: 300px;
+    background-color: pink;
+    float: left;
+    margin-right: 30px;
+    margin-top: 25px;
+    position: relative;
+    top: 0vh;
+    left: 4vw;
+    overflow: hidden;
+    border-radius: 9px;
+    z-index: 2;
+
+}
+
+.list1 {
+    /* div阴影 */
+    -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    /*效果四：上下左右移动 修改translate(x轴,y轴)*/
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+}
+
+.list1:hover {
+    transform: translate(0, -20px);
+    -webkit-transform: translate(0, -30px);
+    -moz-transform: translate(0, -10px);
+    -o-transform: translate(0, -10px);
+    -ms-transform: translate(0, -10px);
+}
+
+.list1 {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.list1 img {
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+}
+
+.box {
+    width: 40%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 500px;
+    left: 5vw;
+    float: left;
+    border-radius: 10px;
+    margin: 40px;
+    overflow: hidden;
+}
+
+.box img {
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+
+.box h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box p1 {
+    display: block;
+    text-indent: 2em;
+    font-size: 16px;
+    /* line-height: 400px; */
+    margin-top: 100px;
+}
+
+.backTop {
+    position: fixed;
+    bottom: 250px;
+    right: 0;
+    margin-right: 20px;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+    background-color: deepskyblue;
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    border-radius: 50%;
+    transition: all linear 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.7);
+    float: left;
+    position: relative;
+    top: 60vh;
+}
+
+.footer .left {
+    float: left;
+    /* background: #00a4ff; */
+    width: 40%;
+    height: 200px;
+}
+
+.footer .left p1 {
+    color: #fff;
+    position: relative;
+    top: 3vh;
+    left: 6vw;
+}
+
+.footer .left p2 {
+    color: #fff;
+    position: absolute;
+    top: 7vh;
+    left: 6vw;
+}
+
+.footer .right {
+    float: right;
+    /* background: #00a4ff; */
+    width: 40%;
+    height: 200px;
+}
+
+.footer .right ul li {
+    color: #fff;
+    font-size: 16px;
+    /* position: relative;
+    right: -25vw;
+    top: 4vh; */
+    padding: 10px;
+    position: absolute;
+    top: 2vw;
+    right: 6.5vw;
+}
+
+.footer .right ul .li-1 {
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+}
